@@ -1,3 +1,21 @@
+# Readme
+
+This is my version of the complete Unscented sensor fusion using an Kalman Filter both with cartesian Lidar-Signals and polar Radar-Signals.
+
+I introduced:
+- Process noise standard deviation longitudinal acceleration in m/s^2
+  std_a_ = 0.5
+
+- Process noise standard deviation yaw acceleration in rad/s^2
+  std_yawdd_ = 0.4 ( roughly M_PI/8)
+
+
+---
+---
+# Original Readme
+---
+
+
 # Unscented Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
